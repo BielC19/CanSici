@@ -1,0 +1,67 @@
+.imgfons {
+    background-image: url(./00-portada-1_cansici.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.contingut {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    text-align:center;
+    position: relative;
+}
+.contingut h1 {
+    font-size: 82px;
+}
+.contingut h2{
+    font-size: 40px;
+    margin-top: -1em;
+}
+.imgfons::before {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.22);
+}
+
+
+
+article {
+    background-image: url(./01-piscina.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+article::before {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.cont2{
+    margin-block: 0;
+    position: relative;
+    color: #FFFFFF;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+
+}
+.cont2 h3{
+    font-size: 32px;
+    
+}
+.cont2 p{
+    font-size: 16px;
+    margin-left: 2em;
+}
