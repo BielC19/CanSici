@@ -1,3 +1,7 @@
+:root {
+    --centrar-transofrm: transform: translate(-50%, -50%);
+    --lletra-xl: 
+}
 .contingut2 {
     position: absolute;
     top: 0;
@@ -26,12 +30,15 @@
     height: 40vh;
     border-radius: 7%;
 }
+.h1h2 {
+    margin-top: -4em;
+}
 .contingut h1 {
-    font-size: 82px;
+    font-size: 8em;
 }
 .contingut h2{
     font-size: 40px;
-    margin-top: -1em;
+    margin-top: -2em;
 }
 
 
@@ -94,7 +101,7 @@ article {
         height: 100%;
         background-size: cover;
         background-position: center;
-        animation: slide 10s infinite;
+        animation: slide 30s infinite;
     }
     
     .slider .slide:nth-child(1) {
@@ -104,22 +111,22 @@ article {
     
     .slider .slide:nth-child(2) {
         background-image: url('./FOTOS/Fotos_Zones_comuns_i_Detalls/DSC2662.JPG');
-        animation-delay: -2s;
+        animation-delay: -6s;
     }
         
     .slider .slide:nth-child(3) {
         background-image: url('./FOTOS/FOTO_DRON_2016/DJI_0022.JPG');
-        animation-delay: -4s;
+        animation-delay: -12s;
     }
         
     .slider .slide:nth-child(4) {
         background-image: url('./FOTOS/Fotos_Habitacions/07-Habitació\ 5.jpg');
-        animation-delay: -6s;
+        animation-delay: -18s;
     }
     
     .slider .slide:nth-child(5) {
         background-image: url('./FOTOS/Fotos_Exteriors/01-Piscina.jpg');
-        animation-delay: -8s;
+        animation-delay: -24s;
     }
     
     @keyframes slide {
