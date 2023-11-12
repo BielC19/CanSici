@@ -107,6 +107,16 @@
         }
     }
 
+.butto1234{
+    bottom: 10px;
+}
+.butto1234 a {
+    color: #000;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+
+
 article:nth-child(1) {
     background-color: #919191;
 }
