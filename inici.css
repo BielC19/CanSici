@@ -108,6 +108,7 @@
     }
 
 .butto1234{
+    position: relative;
     bottom: 10px;
 }
 .butto1234 a {
