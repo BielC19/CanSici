@@ -18,6 +18,7 @@
             </nav>
         </div>
     </div>
+
     <div class="cap">
     <header>
         
@@ -37,20 +38,31 @@
                 </div>
             </div>
             <div class="butto1234">
-                <a href="#cont1"><</a>
-                </div>
+                <button id="12e" onchange="animate()">aaaaaa<</button>
+            </div>            <div class="butto1234">
+                <button id="12e" onchange="animate()">aaaaaa<</button>
+            </div>
         </div>
-        
+
         </div>
 
     </header>
     </div>
+    <script>
+        document.getElementById('12e').addEventListener('click', function() {
+        window.location.href = '#cont1';
+        var destino = $(document.getElementById('12e')); //this.hash lee el atributo href de este
+        $('html, body').animate({ scrollTop: destino.offset().top }, 700); //Llega a su destino con el tiempo deseado
+        return false;
+        });
+
+    </script>
 
     <section>
         <article>
             <div id="cont1" class="cont2">
                 <div>
-                <h3>Que es Can Sic?</h3>
+                <h3>Coneix Can Sici</h3>
                 <p>Can Sici és una masia tradicional del SXVIII, situada en un entorn rural i tranquil, 
                     on trobareu hospitalitat i confort per gaudir de les vostres reunions familiars o trobades d’amics, 
                     a 10 minuts de Girona, 45 minuts de la Costa Brava i 1h de Barcelona.<br>
