@@ -38,9 +38,9 @@
                 </div>
             </div>
             <div class="butto1234">
-                <button id="12e" onchange="animate()">aaaaaa<</button>
-            </div>            <div class="butto1234">
-                <button id="12e" onchange="animate()">aaaaaa<</button>
+            <div class="fonsbtn">
+                <a id="12e"><</a>
+            </div>
             </div>
         </div>
 
@@ -52,7 +52,7 @@
         document.getElementById('12e').addEventListener('click', function() {
         window.location.href = '#cont1';
         var destino = $(document.getElementById('12e')); //this.hash lee el atributo href de este
-        $('html, body').animate({ scrollTop: destino.offset().top }, 700); //Llega a su destino con el tiempo deseado
+        $('html, body').animate({ scrollTop: destino.offset().bottom }, 700); //Llega a su destino con el tiempo deseado
         return false;
         });
 
@@ -116,15 +116,18 @@
             </div>
         </article>
     </section>
+    <!-- <iframe src="./inici.css" frameborder="0"></iframe> -->
     <footer>
+        <div class="centre">
         <div class="contacte">
             <div class="titulcontact"><h3>Contactes a trraves de:</h3></div>
             <div class="logos">
-                    <a class="logo whats" href="https://wa.me/qr/2ZXQ5R6JYH4MH1" target="_blank"><img src="./FOTOS/contacte/whatsapp.png" alt="logo de whatsapp"></a>
-                    <a class="logo insta" href="https://instagram.com/cansicimasia" target="_blank"><img src="./FOTOS/contacte/instagram.png" alt="logo de whatsapp"></a>
-                    <a class="logo form" href="https://wa.me/qr/2ZXQ5R6JYH4MH1" target="_blank"><img src="./FOTOS/contacte/whatsapp.png" alt="logo de whatsapp"></a>
-                    <a class="logo whats" href="https://wa.me/qr/2ZXQ5R6JYH4MH1" target="_blank"><img src="./FOTOS/contacte/whatsapp.png" alt="logo de whatsapp"></a>
+                    <a title="Contacens des de whatsapp" class="logo whats" rel="noopener" href="https://wa.me/qr/2ZXQ5R6JYH4MH1" target="_blank"><img src="./FOTOS/contacte/whatsapp.png" alt="logo de whatsapp"></a>
+                    <a title="Visita el nostre instagram" class="logo insta" rel="noopener" href="https://instagram.com/cansicimasia" target="_blank"><img src="./FOTOS/contacte/instagram.png" alt="logo de whatsapp"></a>
+                    <a title="Ompla el formulai per esta en contacte" class="logo form" rel="noopener" href="https://wa.me/qr/2ZXQ5R6JYH4MH1" target="_blank"><img src="./FOTOS/contacte/forms.png" alt="logo de whatsapp"></a>
+                    <a title="" class="logo whats" rel="noopener" href="https://wa.me/qr/2ZXQ5R6JYH4MH1" target="_blank"><img src="./FOTOS/contacte/whatsapp.png" alt="logo de whatsapp"></a>
             </div>
+        </div>
         </div>
     </footer>
 

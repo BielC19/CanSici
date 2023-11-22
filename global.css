@@ -11,15 +11,29 @@ footer {
     background-color: grey;
     display: flex;
     flex-direction: row;
+    height: 20vh;
+    position: relative;
+    align-items: center;
+    align-content: center;
+}
+footer .centre {
+    position: relative;
+    align-items: center;
+    align-content: center;
+    left: 50%;
 }
 footer .logo img {
     width: 5vh;
+}
+footer .contacte {
+    display: flex;
+    position: relative;
+    align-items: center;
+    align-content: center;
+
 }
 footer .logos {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-}
-.insta {
-    
 }

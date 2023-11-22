@@ -22,7 +22,6 @@
     height: 70vh;
     text-align:center;
     position: absolute;
-    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -125,10 +124,16 @@ header{
     padding: 0.3em;
     border-radius: 7%;
 }
-.butto1234 button {
+.butto1234 {
     color: white;
     cursor: pointer;
     text-decoration-line: none;
+    transform: rotate(-90deg);
+    position: absolute;
+
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
