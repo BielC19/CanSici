@@ -1,0 +1,43 @@
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;}
+.mitg {
+    margin-left: 1em;
+}
+li a{
+
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px #ffffff4b;
+}
+#esquerra {
+
+}
+#dreta {
+    margin-left: 1em;
+    margin-right: 2em;
+}
+.int{
+    background-color: #91919196;
+    border-radius: 64px;
+    display: flex;
+    margin: auto;
+}
+nav{
+    height: fit-content;
+    background-color: #fffffff3;
+    width: fit-content;
+    border-radius: 64px;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    margin-top: 1.3vw;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+body {
+    background-color: transparent;
+    width: auto;
+}
