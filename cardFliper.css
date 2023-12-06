@@ -39,12 +39,12 @@
 }
 
 .front {
-    background-color: rgb(152, 173, 180);
+    background-color: #98adb4;
     z-index: 2;
 }
 .BKH4 {
     border-radius: 12px;
-    background-color: #fff;
+    background-color: #ffffff50;
     padding: 0.2rem;
 }
 .flippEspaai {
@@ -52,7 +52,7 @@
 }
 
 .back {
-    background-color: rgb(144, 182, 144);
+    background-color: #90b690;
     transform: rotateY(180deg);
 }
 .flip-card-inner img {
