@@ -10,19 +10,21 @@
     </div>
     <div class="barra">
         <nav>
+        <dir class="espaiat"></dir>
             <div class="navbar-menu">
-            <div class="navbar-start">
-                <a href="./">Fotos</a>
-                <a href="./">La Casa</a>
-                <a href="./">L'Entron</a>
-                <a href="./">Com Arribar-hi</a>
-                <a href="./">Calendari</a>
-                <a href="./">Preus</a>
-                <a href="./">Reserves</a>
-                <a href="./">Normes de la Casa</a>
-                <a href="./">Contactens</a>
+                <div class="navbar-start">
+                    <div class="clikeeed"><span><a class="Fotos">Fotos</a></span></div>
+                    <a class="Casa" href="./">La Casa</a>
+                    <a class="Entron" href="./">L'Entron</a>
+                    <a class="Arribar" href="./">Com Arribar-hi</a>
+                    <a class="Calendari" href="./">Calendari</a>
+                    <a class="Preus" href="./">Preus</a>
+                    <a class="Reserves" href="./">Reserves</a>
+                    <a class="Normes" href="./">Normes de la Casa</a>
+                    <a class="Contactens" href="./">Contactens</a>
+                </div>
             </div>
-            </div>
+            
             <div class="navbar-burger burger">
                 <span></span>
                 <span></span>
@@ -34,7 +36,13 @@
     document.addEventListener('DOMContentLoaded', function () {
     const burger = document.querySelector('.burger');
     const navbarMenu = document.querySelector('.navbar-menu');
-
+    const fotos = document.querySelector('.Fotos')
+    
+    fotos.addEventListener('click', function(){
+        location.assign('https://google.com');
+        console.log('s\'ha canviat a ' + location.href)
+    });
+    
     burger.addEventListener('click', function () {
         navbarMenu.classList.toggle('is-active');
         console.log('Elemento burger clickeado.'); // Agregado
