@@ -8,10 +8,10 @@ ul {
 .mitg {
     margin-left: 1em;
 }
-li a{
+a{
     text-decoration: none;
     color: #000;
-    text-shadow: 2px 2px #ffffff4b;
+    text-shadow: 2px 2px #ffffff;
     transition: text-decoration 10.8s;
     transform-style: preserve-3d;
     transition-behavior: normal;
@@ -37,7 +37,7 @@ li:hover a{
     margin-left: 1em;
     margin-right: 2em;
 }
-.int{
+.navbar-start{
     display: flex;
     margin: auto;
     width: 100%;
@@ -47,7 +47,8 @@ li:hover a{
 nav{
     height: fit-content;
     width: 100%;
-    background-color: #919191d5;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
     display: flex;
     margin: 0;
     padding: 0;
@@ -55,4 +56,80 @@ nav{
 body {
     background-color: transparent;
     width: auto;
+}
+
+
+
+
+
+/* styles.css */
+
+
+.navbar {
+    position: relative;
+    background-color: #333;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-start {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-item {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.navbar-item:hover {
+    background-color: #444;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.burger span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.3s;
+}
+.burger {
+    display: block;
+}
+
+.navbar-menu {
+    display: none;
+}
+
+.burger {
+    display: block;
+    /* Estilos adicionales para el icono de "burger" */
+}
+
+.navbar-menu {
+    display: none;
+    /* Estilos adicionales para el menú */
+}
+
+.is-active {
+    display: block;
+    /* Estilos adicionales para el menú activo */
 }

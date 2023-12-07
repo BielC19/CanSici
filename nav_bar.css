@@ -39,5 +39,5 @@ nav{
 }
 body {
     background-color: transparent;
-    width: auto;
+    width: fit-content;
 }
