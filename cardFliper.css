@@ -58,6 +58,10 @@
 .flip-card-inner img {
     max-width: 90%;
 }
+.flip-card iframe {
+    max-width: 90%;
+    max-height: 80%;
+}
 .targeta p {
     margin-left: 2em;
     margin-right: 2em;

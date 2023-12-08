@@ -1,8 +1,13 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="nav_bar2.css">
 <link rel="stylesheet" href="global.css">
 <script>
     var btn = document.getElementsByClassName('btnn')
 </script>
+</head>
 <body>
 <div class="barra_logo">
     <div class="logo">
@@ -13,15 +18,15 @@
         <dir class="espaiat"></dir>
             <div class="navbar-menu">
                 <div class="navbar-start">
-                    <div class="clikeeed"><span><a class="Fotos">Fotos</a></span></div>
-                    <a class="Casa" href="./">La Casa</a>
-                    <a class="Entron" href="./">L'Entron</a>
-                    <a class="Arribar" href="./">Com Arribar-hi</a>
-                    <a class="Calendari" href="./">Calendari</a>
-                    <a class="Preus" href="./">Preus</a>
-                    <a class="Reserves" href="./">Reserves</a>
-                    <a class="Normes" href="./">Normes de la Casa</a>
-                    <a class="Contactens" href="./">Contactens</a>
+                    <span onclick="HFotos()" class="Fotos">Fotos</span>
+                    <span onclick="HCasa()" class="Casa">La Casa</span>
+                    <span onclick="HEntron()" class="Entron">L'Entron</span>
+                    <span onclick="HArribar()" class="Arribar">Com Arribar-hi</span>
+                    <span onclick="HCalendari()" class="Calendari">Calendari</span>
+                    <span onclick="HPreus()" class="Preus">Preus</span>
+                    <span onclick="HReserves()" class="Reserves">Reserves</span>
+                    <span onclick="HNormes()" class="Normes">Normes de la Casa</span>
+                    <span onclick="HContactens()" class="Contactens">Contactens</span>
                 </div>
             </div>
             
@@ -32,22 +37,17 @@
             </div>
         </nav>
     </div>
+
 <script>
     document.addEventListener('DOMContentLoaded', function () {
     const burger = document.querySelector('.burger');
     const navbarMenu = document.querySelector('.navbar-menu');
-    const fotos = document.querySelector('.Fotos')
-    
-    fotos.addEventListener('click', function(){
-        location.assign('https://google.com');
-        console.log('s\'ha canviat a ' + location.href)
-    });
-    
     burger.addEventListener('click', function () {
         navbarMenu.classList.toggle('is-active');
         console.log('Elemento burger clickeado.'); // Agregado
     });
 });
-</script>
+</script><script src="btns.js"></script>
 </div>
 </body>
+</html>
