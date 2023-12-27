@@ -1,4 +1,7 @@
-
+html {
+    width: 100%;
+    height: 100%;
+}
 #dreta {
     margin-left: 1em;
     margin-right: 2em;
@@ -8,22 +11,25 @@ nav{
     height: fit-content;
     width: 100%;
     background-color: transparent;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);            
     display: flex;
     margin: 0;
     padding: 0;
 }
 body {
     background-color: transparent;
-    width: auto;
+    
+    max-width: 100%;
+    height: 100%;
     margin-top: 20px;
+}
+.barra_log {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
 }
 
 
-
-
-
-/* styles.css */
 
 
 .navbar {
@@ -35,13 +41,14 @@ body {
 .navbar-menu {
     display: flex;
     width: 100%;
+    justify-content: center;
 }
 
 .navbar-start {
     display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin: 1em;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 0.5em;
 }
 .navbar-start span {
     cursor: pointer;
@@ -76,7 +83,7 @@ body {
     transition: 5.3s;
 }
 .burger {
-    display: block;
+    display: flex;
 }
 
 .navbar-menu {
@@ -94,7 +101,7 @@ body {
 }
 
 .is-active {
-    display: block;
+    display: flex;
     /* Estilos adicionales para el menú activo */
 }
 

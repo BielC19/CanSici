@@ -4,9 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="nav_bar2.css">
 <link rel="stylesheet" href="global.css">
-<script>
-    var btn = document.getElementsByClassName('btnn')
-</script>
 </head>
 <body>
 <div class="barra_logo">
@@ -35,6 +32,7 @@
                 <span></span>
                 <span></span>
             </div>
+            
         </nav>
     </div>
 
@@ -44,7 +42,8 @@
     const navbarMenu = document.querySelector('.navbar-menu');
     burger.addEventListener('click', function () {
         navbarMenu.classList.toggle('is-active');
-        console.log('Elemento burger clickeado.'); // Agregado
+        navbarMenu.classList.toggle('hamburger');
+        console.log('Elemento burger clickeado.');
     });
 });
 </script><script src="btns.js"></script>
