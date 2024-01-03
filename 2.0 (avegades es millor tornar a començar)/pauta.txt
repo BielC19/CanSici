@@ -1,0 +1,2 @@
+const priceNit = 550;
+const priceFiansa = 500;
